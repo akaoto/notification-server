@@ -1,4 +1,4 @@
-# notication-server
+# notification-server
 
 ## これは何?
 
