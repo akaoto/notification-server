@@ -20,10 +20,10 @@ Google DriveでGASプロジェクトを新規作成します。
 
 スクリプトプロパティを設定します。
 
-| スクリプトプロパティ            | 説明                                                            | 値           |
-|---------------------------------|-----------------------------------------------------------------|--------------|
-| `NOTIFICATION_SERVER_API_TOKEN` | 通知サーバーAPI認証用                                           | 任意の文字列 |
-| `LINE_NOTIFY_ACCESS_TOKEN`      | [Line Notify](https://notify-bot.line.me/ja) のアクセストークン | ←            |
+| スクリプトプロパティ            | 説明                                                             | 値           |
+|---------------------------------|------------------------------------------------------------------|--------------|
+| `NOTIFICATION_SERVER_API_TOKEN` | 通知サーバーAPI認証用                                            | 任意の文字列 |
+| `LINE_NOTIFY_ACCESS_TOKEN`      | [Line Notify](https://notify-bot.line.me/ja/) のアクセストークン | ←            |
 
 
 また、 `.clasp.json` の `scriptId` を新規作成したGASのスクリプトIDで書き換えます。
