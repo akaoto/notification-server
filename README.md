@@ -60,3 +60,21 @@ curl -L https://script.google.com/macros/s/[デプロイID]/exec/line/notify \
      -H 'Authorization: Bearer ya29.xxxxxxxxxxxxxxxx'
      -d '{"message": "hoge"}'
 ```
+
+## example
+
+### インストール
+
+
+```bash
+sudo apt install -y jq
+sudo bash -c 'echo export PATH=\$PATH:/home/pi/notification-server >> /etc/profile'
+sudo bash -c 'echo export NOTIFICATION_SERVER_URL=https://script.google.com/macros/s/[DEPLOYMENT_ID]/exec >> /etc/profile'
+sudo bash -c 'echo export NOTIFICATION_SERVER_API_TOKEN=[API_TOKEN] >> /etc/profile'
+```
+
+### 実行
+
+`bash
+line_notify.sh "test message"
+`
